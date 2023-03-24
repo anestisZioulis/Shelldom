@@ -1,0 +1,15 @@
+Stack Overflow:
+https://stackoverflow.com/
+
+Text to ASCII generator:
+https://patorjk.com/software/taag/
+
+Lorem Ipsum generator:
+https://www.lipsum.com/
+
+Best README-Template:
+https://github.com/othneildrew/Best-README-Template/
+
+Microsoft code for clear screen without system command in cmd:
+https://docs.microsoft.com/en-us/windows/console/clearing-the-screen
+
