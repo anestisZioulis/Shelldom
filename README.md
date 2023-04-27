@@ -1,4 +1,5 @@
-<a class="readme-top"></a>
+<a name="readme-top"></a>
+
 <pre align="center">
 ****************************************************
 **     __        ___            __   __   v1.0    **
@@ -14,7 +15,8 @@
 <h2>
   <details align="center">
     <summary>Menu</summary>
-    <a href="#about">About</a><br> 
+    <a href="#about">About</a><br>
+    <a href="#demo">Demo</a><br> 
     <a href="#installation">Installation</a><br> 
     <a href="#main-commands">Main Commands</a><br> 
     <a href="#extra-commands">Extra Commands</a><br> 
@@ -43,6 +45,19 @@ I implemented these extra commands: `list`, `help`, `cd`, `create`, `read`, `del
 
 > **Notice**:<br>
 This program is `NOT` case-sensitive.
+
+<br>
+
+<!-- DEMO -->
+# <pre align="center">Demo</pre>
+
+<div align="center">
+  
+  | ![](/Files/Images/demo.gif) |
+  :--:
+  
+</div>
+
 <hr>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
