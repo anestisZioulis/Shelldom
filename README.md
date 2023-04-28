@@ -63,13 +63,13 @@ This program is `NOT` case-sensitive.
 
 <!-- INSTALLATION -->
 # <pre align="center">Installation</pre>
-To use this program you can download the latest release and use the executable inside.
+To use this program you can download the latest <a href="https://github.com/anestisZioulis/Shelldom/releases/">release</a> and use the executable inside.
 Also, you can compile the source code manually or through an IDE with a bundled compiler:
 
 <br>
 
 <ul>
-  <li>[1] Download the latest release and run the executable.</li>
+  <li>[1] Download the latest <a href="https://github.com/anestisZioulis/Shelldom/releases/">release</a> and run the executable.</li>
   <h4 align="center">or</h4>
   <li>[2] Download JetBrains CLion or another IDE that includes the compiler.</li>
   <h4 align="center">or</h4>
@@ -118,7 +118,7 @@ Also, you can compile the source code manually or through an IDE with a bundled 
 <br>
 
 >Notice:<br>
-This program have `libraries` that work in `Windows` only!
+This program have `libraries` that work in `Windows OS` only!
 <hr>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
