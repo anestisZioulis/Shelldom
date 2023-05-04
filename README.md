@@ -54,7 +54,7 @@ This program is `NOT` case-sensitive.
 <div align="center">
   
   | ![](/Files/Images/demo.gif) |
-  :--:
+  |:---------------------------:|
   
 </div>
 
