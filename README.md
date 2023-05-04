@@ -12,43 +12,45 @@
 </pre>
 
 <!-- TABLE OF CONTENTS -->
-<h2>
-  <details align="center">
-    <summary>Menu</summary>
-    <a href="#about">About</a><br>
-    <a href="#demo">Demo</a><br> 
-    <a href="#installation">Installation</a><br> 
-    <a href="#main-commands">Main Commands</a><br> 
-    <a href="#extra-commands">Extra Commands</a><br> 
-    <a href="#tools">Tools</a><br>
-    <a href="#sources">Sources</a><br>
-  </details>
-</h2>
+
+### <p align="center"><a href="#about">About</a> - <a href="#demo">Demo</a> - <a href="#installation">Installation</a> - <a href="#main-commands">Main Commands</a> - <a href="#extra-commands">Extra Commands</a> - <a href="#tools">Tools</a> - <a href="#sources">Sources</a></p>
 
 <!-- ABOUT -->
+
 # <pre align="center">About</pre>
-The `Shelldom` CLI (_Command Line Interface_) is a program for **Windows**, written in **C**.
+The **Shelldom CLI** (_**C**ommand **L**ine **I**nterface_) is a program for **Windows**, written in **C**.
 It tries to be an **MS-DOS** like operating system, that supports specific commands and options.
 
-This program was created as an assignment for the lesson "Operating Systems I" at the **IHU**
+This program was created as an **assignment** for the lesson "Operating Systems I" at the **IHU**
 (_International Hellenic University - Serres Campus_) by Anestis Zioulis.
 
-> **My assignment**:<br>
-Develop a **shell** in the programming language of your choice. If the `C` language is used,
+**My assignment**:<br>
+>Develop a **shell** in the programming language of your choice. If the `C` language is used,
 avoid using the `system()` command and create your own `functions`.<br>Your CLI must support the following commands:
 `dir`, `move`, `echo`, `type`, `sort`. <br><br>
 
-> **Additional commands**:<br>
-I did implement some additional commands, that were assigned to other students in order
+**Additional commands**:<br>
+>I did implement some additional commands, that were assigned to other students in order
 for the CLI to feel more usable and complete, than just an assignment.<br>
 I implemented these extra commands: `list`, `help`, `cd`, `create`, `read`, `del`, `tree`, `cls`.
 
-> **Notice**:<br>
-This program is `NOT` case-sensitive.
+**Notice**:<br>
+>This program is `NOT` case-sensitive.
 
+<br>
+<hr>
+<div align="left">
+    <b><a href="#about">About</a> - <a href="#demo">Demo</a> - <a href="#installation">Installation</a> - <a href="#main-commands">Main Commands</a> - <a href="#extra-commands">Extra Commands</a> - <a href="#tools">Tools</a> - <a href="#sources">Sources</a></b>
+</div>
+
+<div align="right">
+    (<a href="#readme-top"><b>back to top 🠉</b></a>)
+</div>
+<hr>
 <br>
 
 <!-- DEMO -->
+
 # <pre align="center">Demo</pre>
 
 <div align="center">
@@ -58,10 +60,21 @@ This program is `NOT` case-sensitive.
   
 </div>
 
+<br>
 <hr>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="left">
+    <b><a href="#about">About</a> - <a href="#demo">Demo</a> - <a href="#installation">Installation</a> - <a href="#main-commands">Main Commands</a> - <a href="#extra-commands">Extra Commands</a> - <a href="#tools">Tools</a> - <a href="#sources">Sources</a></b>
+</div>
+
+<div align="right">
+    (<a href="#readme-top"><b>back to top 🠉</b></a>)
+</div>
+<hr>
+<br>
+
 
 <!-- INSTALLATION -->
+
 # <pre align="center">Installation</pre>
 To use this program you can download the latest <a href="https://github.com/anestisZioulis/Shelldom/releases/">release</a> and use the executable inside.
 Also, you can compile the source code manually or through an IDE with a bundled compiler:
@@ -119,10 +132,21 @@ Also, you can compile the source code manually or through an IDE with a bundled 
 
 >Notice:<br>
 This program have `libraries` that work in `Windows OS` only!
+
+<br>
 <hr>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="left">
+    <b><a href="#about">About</a> - <a href="#demo">Demo</a> - <a href="#installation">Installation</a> - <a href="#main-commands">Main Commands</a> - <a href="#extra-commands">Extra Commands</a> - <a href="#tools">Tools</a> - <a href="#sources">Sources</a></b>
+</div>
+
+<div align="right">
+    (<a href="#readme-top"><b>back to top 🠉</b></a>)
+</div>
+<hr>
+<br>
 
 <!-- MAIN COMMANDS -->
+
 # <pre align="center">Main Commands</pre>
 <p align="center">These commands were required by the lesson assignment.</p>
 <hr>
@@ -170,12 +194,23 @@ This program have `libraries` that work in `Windows OS` only!
           >> type /a *.* > about.txt
           >> type /a *.* > YotaFive.txt
       ```
+
+<br>
 <hr>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="left">
+    <b><a href="#about">About</a> - <a href="#demo">Demo</a> - <a href="#installation">Installation</a> - <a href="#main-commands">Main Commands</a> - <a href="#extra-commands">Extra Commands</a> - <a href="#tools">Tools</a> - <a href="#sources">Sources</a></b>
+</div>
+
+<div align="right">
+    (<a href="#readme-top"><b>back to top 🠉</b></a>)
+</div>
+<hr>
+<br>
 
 
 
 <!-- EXTRA COMMANDS -->
+
 # <pre align="center">Extra Commands</pre>
 <p align="center">These extra commands were added by me, not included in the assignment,
 so the CLI is more usable.</p>
@@ -216,9 +251,19 @@ so the CLI is more usable.</p>
           >> cd ..
           >> cd ../backToTheFuture/
       ```
+
+<br>
 <hr>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="left">
+    <b><a href="#about">About</a> - <a href="#demo">Demo</a> - <a href="#installation">Installation</a> - <a href="#main-commands">Main Commands</a> - <a href="#extra-commands">Extra Commands</a> - <a href="#tools">Tools</a> - <a href="#sources">Sources</a></b>
+</div>
+
+<div align="right">
+    (<a href="#readme-top"><b>back to top 🠉</b></a>)
+</div>
 <hr>
+<br>
+
 
 - [x] **CREATE**
     - Save user inserted integer numbers from 1-255 in a text or binary file, exit with 0.
@@ -282,10 +327,21 @@ so the CLI is more usable.</p>
       ```c
           >> exit
       ```
+
+<br>
 <hr>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="left">
+    <b><a href="#about">About</a> - <a href="#demo">Demo</a> - <a href="#installation">Installation</a> - <a href="#main-commands">Main Commands</a> - <a href="#extra-commands">Extra Commands</a> - <a href="#tools">Tools</a> - <a href="#sources">Sources</a></b>
+</div>
+
+<div align="right">
+    (<a href="#readme-top"><b>back to top 🠉</b></a>)
+</div>
+<hr>
+<br>
 
 <!-- TOOLS -->
+
 # <pre align="center">Tools</pre>
 <p align="center">The tools I used to create this assignment.</p>
 <hr>
@@ -293,12 +349,22 @@ so the CLI is more usable.</p>
 - MingGW_GCC 9.2.0 compiler from [MinGW-w64](https://www.mingw-w64.org/)
 - Jetbrains CLion (Student/full version)
 - C Standard 99
-<hr>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<hr>
+<div align="left">
+    <b><a href="#about">About</a> - <a href="#demo">Demo</a> - <a href="#installation">Installation</a> - <a href="#main-commands">Main Commands</a> - <a href="#extra-commands">Extra Commands</a> - <a href="#tools">Tools</a> - <a href="#sources">Sources</a></b>
+</div>
+
+<div align="right">
+    (<a href="#readme-top"><b>back to top 🠉</b></a>)
+</div>
+<hr>
+<br>
 
 
 <!-- SOURCES -->
+
 # <pre align="center">Sources</pre>
 <p align="center">Sources I used material to create the project and readme.</p>
 <hr>
@@ -309,5 +375,15 @@ so the CLI is more usable.</p>
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
 * [Microsoft CLS command](https://docs.microsoft.com/en-us/windows/console/clearing-the-screen)
 
+
+<br>
 <hr>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="left">
+    <b><a href="#about">About</a> - <a href="#demo">Demo</a> - <a href="#installation">Installation</a> - <a href="#main-commands">Main Commands</a> - <a href="#extra-commands">Extra Commands</a> - <a href="#tools">Tools</a> - <a href="#sources">Sources</a></b>
+</div>
+
+<div align="right">
+    (<a href="#readme-top"><b>back to top 🠉</b></a>)
+</div>
+<hr>
+<br>
