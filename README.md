@@ -18,21 +18,21 @@
 <!-- ABOUT -->
 
 # <pre align="center">About</pre>
-The **Shelldom CLI** (_**C**ommand **L**ine **I**nterface_) is a program for **Windows**, written in **C**.
-It tries to be an **MS-DOS** like operating system, that supports specific commands and options.
+The **Shelldom CLI** (_**C**ommand **L**ine **I**nterface_) is a program for **Windows** written in **C**.
+It tries to be an **MS-DOS**-like operating system that supports specific commands and options.
 
 This program was created as an **assignment** for the lesson "Operating Systems I" at the **IHU**
-(_International Hellenic University - Serres Campus_) by Anestis Zioulis.
+(_International Hellenic University, Serres Campus_) by Anestis Zioulis.
 
 **My assignment**:<br>
 >Develop a **shell** in the programming language of your choice. If the `C` language is used,
 avoid using the `system()` command and create your own `functions`.<br>Your CLI must support the following commands:
-`dir`, `move`, `echo`, `type`, `sort`. <br><br>
+`dir`, `move`, `echo`, `type`, and `sort`. <br><br>
 
 **Additional commands**:<br>
->I did implement some additional commands, that were assigned to other students in order
-for the CLI to feel more usable and complete, than just an assignment.<br>
-I implemented these extra commands: `list`, `help`, `cd`, `create`, `read`, `del`, `tree`, `cls`.
+>I did implement some additional commands that were assigned to other students in order
+for the CLI to feel more usable and complete than just an assignment.<br>
+I implemented these extra commands: `list`, `help`, `cd`, `create`, `read`, `del`, `tree`, and `cls`.
 
 **Notice**:<br>
 >This program is `NOT` case-sensitive.
@@ -76,8 +76,8 @@ I implemented these extra commands: `list`, `help`, `cd`, `create`, `read`, `del
 <!-- INSTALLATION -->
 
 # <pre align="center">Installation</pre>
-To use this program you can download the latest <a href="https://github.com/anestisZioulis/Shelldom/releases/">release</a> and use the executable inside.
-Also, you can compile the source code manually or through an IDE with a bundled compiler:
+To use this program, you can download the latest <a href="https://github.com/anestisZioulis/Shelldom/releases/">release</a> and use the executable inside.
+Also, you can compile the source code manually or through an IDE with a bundled compiler.
 
 <br>
 
@@ -94,7 +94,7 @@ Also, you can compile the source code manually or through an IDE with a bundled 
 
 - [3] If you opted to compile the source code yourself.
 - You downloaded the tool chain that has the compiler and installed it.
-- Open `cmd`, change directory to the folder the source file is and check if `gcc`
+- Open `cmd`, change the directory to the folder where the source file is, and check if `gcc`
   is available with the following command:
   ```c
     gcc -v
@@ -102,7 +102,7 @@ Also, you can compile the source code manually or through an IDE with a bundled 
 
 <br>
 
-- If you see something like this you are good to compile:
+- If you see something like this, you are good to compile:
   ```c
     Using built-in specs.
     COLLECT_GCC=gcc
@@ -131,7 +131,7 @@ Also, you can compile the source code manually or through an IDE with a bundled 
 <br>
 
 >Notice:<br>
-This program have `libraries` that work in `Windows OS` only!
+This program has `libraries` that work only on the `Windows OS`!
 
 <br>
 <hr>
@@ -153,7 +153,7 @@ This program have `libraries` that work in `Windows OS` only!
 <br>
 
 - [x] **DIR** / **LS**
-    - Display the contents of a directory in a column(default) or a list(`-l`).
+    - Display the contents of a directory in a column (default) or a list(`-l`).
         - `dir` `<option>` `<path>`
         - `ls` `<option>` `<path>`
       ```c
@@ -168,7 +168,7 @@ This program have `libraries` that work in `Windows OS` only!
 <hr>
 
 - [x] **MOVE**
-    - Move a file from one folder to another
+    - Move a file from one folder to another.
         - `move` `<path/file>` `<path>`
       ```c
           >> move c:/mario.txt d:/adventures/
@@ -178,7 +178,7 @@ This program have `libraries` that work in `Windows OS` only!
 <hr>
 
 - [x] **ECHO**
-    - Append a typed string in the provided file
+    - Append a typed string to the provided file.
         - `echo` `<alphanumeric_value>` `>` `<file>`
       ```c
           >> echo john55 > about.txt
@@ -187,8 +187,8 @@ This program have `libraries` that work in `Windows OS` only!
 <hr>
 
 - [x] **TYPE**
-    - Merge all the text files of the current folder into a new one.
-    - If it exists, ask for permission to replace, append or cancel.
+    - Merge all the text files in the current folder into a new one.
+    - If it exists, ask for permission to replace, append, or cancel.
         - `type` `/a` `*.*` `>` `<file>`
       ```c
           >> type /a *.* > about.txt
@@ -212,13 +212,12 @@ This program have `libraries` that work in `Windows OS` only!
 <!-- EXTRA COMMANDS -->
 
 # <pre align="center">Extra Commands</pre>
-<p align="center">These extra commands were added by me, not included in the assignment,
-so the CLI is more usable.</p>
+<p align="center">I added these extra commands that were not part of the assignment, so the CLI is more usable.</p>
 <hr>
 <br>
 
 - [x] **SORT**
-    - Read 32 numbers (byte size) from a binary file, sort them and display them.
+    - Read 32 numbers (byte size) from a binary file, sort them, and display them.
         - `sort` `<file>`
       ```c
           >> sort numbers.bin
@@ -266,7 +265,7 @@ so the CLI is more usable.</p>
 
 
 - [x] **CREATE**
-    - Save user inserted integer numbers from 1-255 in a text or binary file, exit with 0.
+    - Save user-inserted integer numbers from 1-255 in a text or binary file, and exit with 0.
         - If you want to create a binary file without `.bin` you have to use the option `-b`!
         - `create` `<option>` `<file>`
       ```c
@@ -290,7 +289,7 @@ so the CLI is more usable.</p>
 <hr>
 
 - [x] **DEL**
-    - Delete a file `<file>` or files like `<file*>` or all files `*.*` on the current folder.
+    - Delete a file `<file>` or files like `<file*>` or all files `*.*` in the current folder.
         - `del` `<file>`
       ```c
           >> del data.bin
@@ -300,7 +299,7 @@ so the CLI is more usable.</p>
 <hr>
 
 - [x] **TREE**
-    - Displays the structure of the current folder, sub-folders and files.
+    - Displays the structure of the current folder, sub-folders, and files.
         - `tree` `<path>`
       ```c
           >> tree
@@ -311,13 +310,12 @@ so the CLI is more usable.</p>
 <hr>
 
 - [x] **CLS**
-    - Clear the screen from text and move the cursor at the top left.
+    - Clear the screen from text and move the cursor to the top left.
         - `cls`
       ```c
           >> cls
       ```
-      >A microsoft function was used for this in order to bypass the `system` command,
-      due to the assignment limitation. Will not work in the CLion console window!
+      >A Microsoft function was used for this in order to bypass the `system` command due to the assignment limitation. Will not work in the CLion console window!
       More details for the function: https://docs.microsoft.com/en-us/windows/console/clearing-the-screen
 <hr>
 
@@ -366,7 +364,7 @@ so the CLI is more usable.</p>
 <!-- SOURCES -->
 
 # <pre align="center">Sources</pre>
-<p align="center">Sources I used material to create the project and readme.</p>
+<p align="center">Sources I used materials to create the project and readme.</p>
 <hr>
 
 * [Stack Overflow](https://stackoverflow.com/)
